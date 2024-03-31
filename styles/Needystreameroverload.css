@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(255, 102, 212);
+}
+
+.main-header {
+    background-color: rgb(84, 233, 253);
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+main{
+    background-color: rgb(204, 27, 174);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 15px;
+    color: rgb(187, 242, 239);
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type:none;
+}
+
+.nav-list a {
+ color: rgb(205, 246, 255);
+ text-decoration: none;
+ font-size: 20px; 
+ text-shadow: 15px rgb(10, 24, 24);  
+}
+
+.nav-img {
+    border-radius: 15px;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+ 
+main>img{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.gallery{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.gallery-item {
+    margin: 0;
+    width: 20%;
+    padding: 5px;
+    border: 1px solid rgb(4, 209, 224);
+    border-radius: 5px;
+}
+
+.gallery-img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.gallery-title {
+    text-align: center;
+    color:rgb(168, 236, 255)
+}
+.main-img{
+    transition: 0.7s;
+    filter: blur(10px)
+}
+.main-img:hover{
+  transform: scale(1.2);
+  filter:none
+  
+}
